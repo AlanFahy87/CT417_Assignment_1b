@@ -5,6 +5,19 @@
     <artifactId>Assignment_1b</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+	    <groupId>com.github.AlanFahy87</groupId>
+	    <artifactId>CT417_Assignment_1</artifactId>
+	    <version>master</version>
+	</dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
